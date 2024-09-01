@@ -15,4 +15,4 @@ function calculandoIMC(){
         }
         resultado.textContent = `Seu IMC é ${imc}! ${mensagem}`;      
     }else{ resultado.textContent = "Preencha todos os campos!!!" }
-} btn_calcular.addEventListener('click', calculandoIMC);
+} botaoCalcular.addEventListener('click', calculandoIMC);
